@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Flower</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower</title>
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="common/css/swiper-bundle.min.css">
   <script src="common/js/jquery.min.js"></script>
@@ -20,7 +20,31 @@
   </script>
 </head>
 <body>
-  <header></header>
+<div class="wrapper">
+  <header class="l-header">
+    <h1 class="l-header__title">
+      <a href="/" class="l-header__title__link">
+        <img class="l-header__title__logo" src="common/image/Flower-logo.png" alt="ブランドロゴ">
+    </h1>
+    <div class="l-header__right">
+      <nav class="l-nav">
+        <ul class="l-nav__inner">
+          <li class="l-nav__list"><a class="l-nav__link" href="#">News</li>
+          <li class="l-nav__list"><a class="l-nav__link" href="#">About</li>
+          <li class="l-nav__list"><a class="l-nav__link" href="#">Access</li>
+          <li class="l-nav__list"><a class="l-nav__link" href="#">Contact</li>
+        </ul>
+      </nav>
+      <div class="l-header__taggle js-navSwitch">
+        <div class="l-header__taagle__inner">
+          <span class="l-header__taagle__inner--bar1"></span>
+          <span class="l-header__taagle__inner--bar2"></span>
+          <span class="l-header__taagle__inner--bar3"></span>
+        </div>
+        <p class="l-header__taggle__text js-navText">MENU</p>
+      </div>
+    </div>
+  </header>
   <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -37,38 +61,38 @@
       </div>>
     </div>
   </div>
-  <div class="news">
-    <h2 class="title">NEWS/</h2>
-      <div class="news-feeld">
-        <div class="newsfeeld-article">
-          <a class="newsfeeld-article-link" href="#">
-            <p class="newsfeeld-article-date">2024.05.30</p>
-            <p class="newsfeeld-article-title">ポップアップイベントについて</p>
+  <div class="l-news">
+    <h2 class="l-news__title">NEWS/</h2>
+      <div class="l-news__feeld">
+        <div class="l-newsfeeld__article">
+          <a class="l-newsfeeld__article__link" href="#">
+            <p class="l-newsfeeld__article__date">2024.05.30</p>
+            <p class="l-newsfeeld__article__title">ポップアップイベントについて</p>
           </a>
         </div>
-        <div class="newsfeeld-article">
-          <a class="newsfeeld-article-link" href="#">
-            <p class="newsfeeld-article-date">2024.05.13</p>
-            <p class="newsfeeld-article-title">ブーケ教室のご案内</p>
+        <div class="l-newsfeeld__article">
+          <a class="l-newsfeeld__article__link" href="#">
+            <p class="l-newsfeeld__article__date">2024.05.13</p>
+            <p class="l-newsfeeld__article__title">ブーケ教室のご案内</p>
           </a>
         </div>
-        <div class="newsfeeld-article">
-          <a class="newsfeeld-article-link" href="#">
-            <p class="newsfeeld-article-date">2024.04.25</p>
-            <p class="newsfeeld-article-title">GW期間休業のお知らせ</p>
+        <div class="l-newsfeeld__article">
+          <a class="l-newsfeeld__article__link" href="#">
+            <p class="l-newsfeeld__article__date">2024.04.25</p>
+            <p class="l-newsfeeld__article__title">GW期間休業のお知らせ</p>
           </a>
         </div>
       </div>
-      <div class="newsfeeld-pager">
-        <div class="newsfeeld-pager-page" data-pos="0"></div>
-        <div class="newsfeeld-pager-page" data-pos="1"></div>
-        <div class="newsfeeld-pager-page" data-pos="2"></div>
+      <div class="c-newsfeeld__pager">
+        <div class="c-newsfeeld__pager--page" data-pos="0"></div>
+        <div class="c-newsfeeld__pager--page" data-pos="1"></div>
+        <div class="c-newsfeeld__pager--page" data-pos="2"></div>
       </div>
   </div>
-  <div class="about">
-    <div class="about-head">
-      <h2 class="about-head-title">ABOUT</h2>
-      <div class="about-head-image">
+  <div class="l-about">
+    <div class="l-about__head">
+      <h2 class="l-about__head__title">ABOUT</h2>
+      <div class="l-about__head__image">
         <img class="about-image" src="img/AdobeStock_462575809.jpeg">
       </div>
     </div>
@@ -97,21 +121,21 @@
           新しく花と出会う場を生み出します。
         </p>
   </div>
-    <div class="brand">
-      <div class="brand-head">
-        <h2 class="brand-head-title">Brand Consept</h2>
+    <div class="l-brand">
+      <div class="l-brand__head">
+        <h2 class="l-brand__head__title">Brand Consept</h2>
       </div>
-      <div class="brand-main">
-        <div class="brand-main-visual">
-          <div class="brand-main-visual-1">
-            <img class="brand-main-image01" src="img/AdobeStock_487639903.jpeg">
+      <div class="l-brand__main">
+        <div class="l-brand__main__visual">
+          <div class="l-brand__main__visual-1">
+            <img class="l-brand-main-image01" src="img/AdobeStock_487639903.jpeg">
           </div>
-          <div class="brand-main-visual-2">
-            <img class="brand-main-image02" src="img/AdobeStock_415889784.jpeg">
+          <div class="l-brand__main__visual-2">
+            <img class="l-brand-main-image02" src="img/AdobeStock_415889784.jpeg">
           </div>
         </div>
-        <div class="brand-main-text">
-          <div class="brand-main-text-container">
+        <div class="l-brand__main__text">
+          <div class="l-brand__main__container">
             <h3>五感を豊かにする<br>重要な要素としての<br>オーディオ＆ホームシアター</h3>
             <p>
               「花とあなたが出会う場所」を<br>
@@ -141,21 +165,21 @@
         </div>
       </div>
     </div>
-    <div class="braidal-flower">
-      <div class="braidal-head">
-        <h2 class="braidal-head-title">Braidal Flower</h2>
+    <div class="l-braidal-flower">
+      <div class="l-braidal__head">
+        <h2 class="l-braidal__head__title">Braidal Flower</h2>
       </div>
-      <div class="braidal-main">
-        <div class="braidal-main-visual">
-          <div class="braidal-main-visual-1">
+      <div class="l-braidal__main">
+        <div class="l-braidal__main__visual">
+          <div class="l-braidal__main__visual-1">
             <img class="braidal-main-image01" src="img/AdobeStock_357142495.jpeg">
           </div>
-          <div class="braidal-main-visual-2">
-            <img class="braidal-main-image02" src="img/AdobeStock_285772814.jpeg">
+          <div class="l-braidal__main__visual-2">
+            <img class="l-braidal__main__image02" src="img/AdobeStock_285772814.jpeg">
           </div>
         </div>
-        <div class="braidal-main-text">
-          <div class="braidal-main-text-container">
+        <div class="l-braidal__main__text">
+          <div class="l-braidal__main__text-container">
             <h3>五感を豊かにする<br>重要な要素としての<br>オーディオ＆ホームシアター</h3>
             <p>
               「花とあなたが出会う場所」を<br>
@@ -185,12 +209,12 @@
         </div>
       </div>
     </div>
-    <div class="flower-school">
-      <div class="flower-school-head">
-        <h2 class="flower-school-head-title">Flower Class</h2>
+    <div class="l-flower-school">
+      <div class="l-flower-school__head">
+        <h2 class="l-flower-school__head__title">Flower Class</h2>
       </div>
-      <div class="flower-school-main">
-        <div class="flower-school-main-visual">
+      <div class="l-flower-school-main">
+        <div class="l-flower-school-main__visual">
           <div class="flower-school-main-visual-1">
             <img class="flower-school-main-image01" src="img/AdobeStock_357142495.jpeg">
           </div>
@@ -250,13 +274,6 @@
         Open 10:00 - Close 18:00<br>
         火曜・日曜定休
       </p>
-      <p class="footer-text">
-        代表 若林<br>
-        〒222-2222 東京都港区3-3-3<br>
-        TEL 00-0000-0000<br>
-        Open 10:00 - Close 18:00<br>
-        火曜・日曜定休
-      </p>
       <div class="contact">
         <a class="contact-btn" href="#">CONTACT US</a>
       </div>
@@ -265,6 +282,7 @@
       </div>
       <small class="footer-copyright">©︎IDEL TOKYO ALL RIGHTS RESERVED.</small>
     </div>
+</div>
   <script src="common/js/swiper-bundle.min.js"></script>
   <script src="common/js/script.js"></script>
 </body>
